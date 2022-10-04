@@ -179,8 +179,8 @@ footer{
 .contatti{
     margin-top: 50px;
     /* DEBUG */
-    height: 200px;
-    min-width: 150PX;
+    height: 350px;
+    min-width: 350PX;
     background-color: rgb(122, 171, 211);
     
 }
@@ -188,8 +188,8 @@ footer{
     list-style-type: none;
     margin-top: 50px;
     /* DEBUG */
-    height: 200px;
-    min-width: 150PX;
+    height: 350px;
+    min-width: 350PX;
     background-color: rgb(122, 171, 211);
 
 }
