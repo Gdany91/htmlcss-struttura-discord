@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    min-height: 600PX;
+    /* DEBUG */
+    background-color: rgb(100, 100, 197);
+}
+
+/* corpo della pagina */
+
+.row-odd {
+    min-height: 650px;
+    /* DEBUG */
+    background-color: rgb(176, 176, 177);
+}
+
+.row-even {
+    min-height: 650px;
+    /* DEBUG */
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    min-height: 600PX;
+    /* DEBUG */
+    background-color: rgb(57, 57, 73);
+}
