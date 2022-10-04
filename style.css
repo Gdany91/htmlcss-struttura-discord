@@ -9,21 +9,148 @@ header{
     min-height: 600PX;
     /* DEBUG */
     background-color: rgb(100, 100, 197);
+    display: flex;
+    justify-content: space-around;
 }
 
+    /* logo */
+    .logo{
+        margin: 30px;
+        height: 25px;
+        width: 100px;
+        /* DEBUG */
+        background-color: rgb(244, 244, 250);
+    }
+
+    /* menu */
+    .menu{
+        margin: 30px;
+        height: 25px;
+        width: 300px;
+        /* DEBUG */
+         background-color: rgb(244, 244, 250);
+    }
+
+    /* log-in */
+    .log-in{
+        margin: 30px;
+        height: 25px;
+        width: 100px;
+        /* DEBUG */
+         background-color: rgb(244, 244, 250);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* corpo della pagina */
+
+
+
+
+
+
+/* caratteristiche  */
+
+/* prime 3 sezioni */
 
 .row-odd {
     min-height: 650px;
     /* DEBUG */
     background-color: rgb(176, 176, 177);
+    display: flex;
+    justify-content: center
+    
 }
 
 .row-even {
     min-height: 650px;
     /* DEBUG */
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center
+    
 }
+
+.img{
+    /* DEBUG */
+    background-color: rgb(38, 156, 172);
+    min-height: 350px;
+    min-width: 300PX;
+    margin: 50px;
+}
+
+/* ultima sezione */
+
+
+
+.testo{
+    /* DEBUG */
+    background-color: rgb(38, 156, 172);
+    min-height: 350px;
+    min-width: 300PX;
+    margin: 50px;
+}
+
+/* ultima sezione */
+
+.row-special {
+    min-height: 950px;
+    /* DEBUG */
+    background-color: rgb(176, 176, 177);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+
+    .img-2{
+        /* DEBUG */
+        background-color: rgb(38, 156, 172);
+        min-height: 200px;
+        min-width: 600pxPX;
+        margin: 50px;
+    }
+    
+    
+    .testo-2{
+        /* DEBUG */
+        background-color: rgb(38, 156, 172);
+        min-height: 200px;
+        min-width: 600PX;
+        margin: 50px;
+    }
+
+    h4{
+        /* DEBUG */
+        min-height: 20px;
+        min-width: 60PX;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+
+    button{
+        /* DEBUG */
+        min-height: 20px;
+        min-width: 60PX;
+        background-color: rgb(122, 171, 211);
+       
+    }
+    
+
 
 
 
@@ -40,6 +167,29 @@ header{
 
 footer{
     min-height: 600PX;
+    display: flex;
+    justify-content: space-around;
+    
     /* DEBUG */
     background-color: rgb(57, 57, 73);
+}
+
+/* contatti social e nav */
+
+.contatti{
+    margin-top: 50px;
+    /* DEBUG */
+    height: 200px;
+    min-width: 150PX;
+    background-color: rgb(122, 171, 211);
+    
+}
+.list{
+    list-style-type: none;
+    margin-top: 50px;
+    /* DEBUG */
+    height: 200px;
+    min-width: 150PX;
+    background-color: rgb(122, 171, 211);
+
 }
